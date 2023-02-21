@@ -1,0 +1,24 @@
+{
+  "name": "discordmessagepusher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mike5231/discordMessagePusher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mike5231/discordMessagePusher/issues"
+  },
+  "homepage": "https://github.com/Mike5231/discordMessagePusher#readme",
+  "dependencies": {
+    "discord.js": "14.7.1",
+    "dotenv": "^16.0.3",
+    "js": "^0.1.0"
+  }
+}
