@@ -13,7 +13,7 @@ client.on('ready', () => {
 
 client.on('messageCreate', async (message) => {
   // Verificar si el mensaje fue enviado por el usuario objetivo
-  if (message.author.id === targetUserId) {
+  if (message.author.id === targetUserId && message.content.length > 4) {
     if (lastMessage) {
         await lastMessage.delete().catch(console.error);
       }
